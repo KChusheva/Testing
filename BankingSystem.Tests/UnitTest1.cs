@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 
 namespace BankingSystem.Tests
 {
@@ -40,6 +41,19 @@ namespace BankingSystem.Tests
                 Assert.AreEqual(2000m, bankAccount.Balance);
             }
         }
-        
+        [Test]
+        public void NegativeAmountShouldThrowInvalidOperationExeptionsWithMessage()
+        {
+            //Arrange
+            BankAccount bankAccount = new BankAccount(123);
+            decimal amountDeposit = -100;
+
+            //Act
+
+            //Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => bankAccount.Deposit(amountDeposit));
+            Assert.AreEqual(ex.Message, "Negative amount");
+        }
+
     }
 }
