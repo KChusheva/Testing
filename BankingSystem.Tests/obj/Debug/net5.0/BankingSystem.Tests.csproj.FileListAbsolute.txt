@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\obj\Debug\net5.0\BankingSystem.Tests.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\obj\Debug\net5.0\BankingSystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\obj\Debug\net5.0\BankingSystem.Tests.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\obj\Debug\net5.0\BankingSystem.Tests.AssemblyInfo.cs
+C:\Users\Student\Documents\11б - номер 2\Krista Chusheva\Testing\BankingSystem.Tests\obj\Debug\net5.0\BankingSystem.Tests.csproj.CoreCompileInputs.cache
