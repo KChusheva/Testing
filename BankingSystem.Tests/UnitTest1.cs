@@ -44,16 +44,39 @@ namespace BankingSystem.Tests
         [Test]
         public void NegativeAmountShouldThrowInvalidOperationExeptionsWithMessage()
         {
-            //Arrange
-            BankAccount bankAccount = new BankAccount(123);
-            decimal amountDeposit = -100;
+            {
+                //Arrange
+                BankAccount bankAccount = new BankAccount(123);
+                decimal amountDeposit = -100;
 
-            //Act
+                //Act
 
-            //Assert
-            var ex = Assert.Throws<InvalidOperationException>(() => bankAccount.Deposit(amountDeposit));
-            Assert.AreEqual(ex.Message, "Negative amount");
+                //Assert
+                var ex = Assert.Throws<InvalidOperationException>(() => bankAccount.Deposit(amountDeposit));
+                Assert.AreEqual(ex.Message, "Negative amount");
+            }
         }
-
-    }
+        [Test]
+        {
+        public void ConstructorShouldSetZeroBalance;
+        {
+        //Arrange
+        int id = 123;
+        //Act
+        BankAccount account = new BankAccount(id);
+        //Assert
+        Assert.AreEqual(0, account.Balace);
+        }
 }
+
+
+
+
+
+
+
+
+
+
+
+
